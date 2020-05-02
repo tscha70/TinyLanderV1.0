@@ -1,3 +1,27 @@
+//   >>>>>  T-I-N-Y  L-A-N-D-E-R v1.0 for ATTINY85  GPLv3 <<<<
+//              Programmer: (c) Roger Buehler 2020
+//              Contact EMAIL: tscha70@gmail.com
+//        Official repository:  https://github.com/tscha70/
+//  Tiny Lander v1.0 is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+
+//  You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//     
+//  This game uses features or part of code created by 
+//  Daniel C (Electro L.I.B) https://www.tinyjoypad.com under GPLv3
+//  to work with tinyjoypad game console's standard.
+//             
+// the code works at 16MHZ internal
+// and use ssd1306xled Library for SSD1306 oled display 128x64
+
 // 'Lunar Lander Sprites', 56x8px
 const uint8_t LANDER [] PROGMEM = {
   0x00, 0x0e, 0x09, 0x09, 0x09, 0x0e, 0x00, 0xf0, 0x10, 0x10, 0x10, 0x10, 0x10, 0xf0, 0xf0, 0x10,
